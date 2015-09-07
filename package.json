@@ -1,0 +1,28 @@
+{
+  "name": "canvas-animation-loader",
+  "version": "0.0.4",
+  "description": "webpack loader for canvas animations",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ConradIrwin/canvas-animation-loader"
+  },
+  "dependencies": {
+    "jsdom": "^3.0.0",
+    "canvas2svg-conradirwin":"latest",
+    "loader-utils":"latest"
+  },
+  "peerDependencies": {
+    "canvas": "^1.2.8"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "canvas",
+    "svg",
+    "animation"
+  ],
+  "author": "Conrad Irwin",
+  "license": "MIT",
+  "homepage": "https://github.com/ConradIrwin/canvas-animation-loader"
+}

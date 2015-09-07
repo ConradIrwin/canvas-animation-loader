@@ -1,0 +1,177 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/conrad/.nvm/v0.10.38/bin/node',
+1 verbose cli   '/Users/conrad/.nvm/v0.10.38/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose node symlink /Users/conrad/.nvm/v0.10.38/bin/node
+5 warn package.json canvas-animation-loader@0.0.2 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/0/js/canvas-animation-loader',
+7 verbose install   [ 'jsdom', 'canvas2svg-conradirwin', 'loader-utils' ] ]
+8 info preinstall canvas-animation-loader@0.0.2
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping jsdom@^3.0.0 /0/js/canvas-animation-loader
+11 verbose cache add [ 'canvas2svg-conradirwin@latest', null ]
+12 verbose cache add name=undefined spec="canvas2svg-conradirwin@latest" args=["canvas2svg-conradirwin@latest",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'canvas2svg-conradirwin@latest',
+13 verbose parsed url   path: 'canvas2svg-conradirwin@latest',
+13 verbose parsed url   href: 'canvas2svg-conradirwin@latest' }
+14 verbose cache add name="canvas2svg-conradirwin" spec="latest" args=["canvas2svg-conradirwin","latest"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'latest',
+15 verbose parsed url   path: 'latest',
+15 verbose parsed url   href: 'latest' }
+16 verbose addNamed [ 'canvas2svg-conradirwin', 'latest' ]
+17 verbose addNamed [ null, null ]
+18 verbose cache add [ 'loader-utils@latest', null ]
+19 verbose cache add name=undefined spec="loader-utils@latest" args=["loader-utils@latest",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'loader-utils@latest',
+20 verbose parsed url   path: 'loader-utils@latest',
+20 verbose parsed url   href: 'loader-utils@latest' }
+21 silly lockFile bebc494c-canvas2svg-conradirwin-latest canvas2svg-conradirwin@latest
+22 verbose lock canvas2svg-conradirwin@latest /Users/conrad/.npm/bebc494c-canvas2svg-conradirwin-latest.lock
+23 verbose cache add name="loader-utils" spec="latest" args=["loader-utils","latest"]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'latest',
+24 verbose parsed url   path: 'latest',
+24 verbose parsed url   href: 'latest' }
+25 verbose addNamed [ 'loader-utils', 'latest' ]
+26 verbose addNamed [ null, null ]
+27 silly lockFile e37962b9-loader-utils-latest loader-utils@latest
+28 verbose lock loader-utils@latest /Users/conrad/.npm/e37962b9-loader-utils-latest.lock
+29 info addNameTag [ 'canvas2svg-conradirwin', 'latest' ]
+30 info addNameTag [ 'loader-utils', 'latest' ]
+31 verbose request where is /canvas2svg-conradirwin
+32 verbose request registry https://registry.npmjs.org/
+33 verbose request id f777f5838633e6a3
+34 verbose url raw /canvas2svg-conradirwin
+35 verbose url resolving [ 'https://registry.npmjs.org/', './canvas2svg-conradirwin' ]
+36 verbose url resolved https://registry.npmjs.org/canvas2svg-conradirwin
+37 verbose request where is https://registry.npmjs.org/canvas2svg-conradirwin
+38 info trying registry request attempt 1 at 00:25:40
+39 verbose etag "4D4PQ4ZOFBKTQ9KYJT1C7VOHO"
+40 http GET https://registry.npmjs.org/canvas2svg-conradirwin
+41 verbose request where is /loader-utils
+42 verbose request registry https://registry.npmjs.org/
+43 verbose url raw /loader-utils
+44 verbose url resolving [ 'https://registry.npmjs.org/', './loader-utils' ]
+45 verbose url resolved https://registry.npmjs.org/loader-utils
+46 verbose request where is https://registry.npmjs.org/loader-utils
+47 info trying registry request attempt 1 at 00:25:40
+48 verbose etag "64QL3E2CCZFAS89UNVBUKHOLH"
+49 http GET https://registry.npmjs.org/loader-utils
+50 http 304 https://registry.npmjs.org/loader-utils
+51 silly registry.get cb [ 304,
+51 silly registry.get   { date: 'Sun, 06 Sep 2015 07:25:40 GMT',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     'cache-control': 'max-age=60',
+51 silly registry.get     etag: '"64QL3E2CCZFAS89UNVBUKHOLH"',
+51 silly registry.get     age: '12',
+51 silly registry.get     connection: 'keep-alive',
+51 silly registry.get     'x-served-by': 'cache-sjc3133-SJC',
+51 silly registry.get     'x-cache': 'HIT',
+51 silly registry.get     'x-cache-hits': '2',
+51 silly registry.get     'x-timer': 'S1441524340.773873,VS0,VE0',
+51 silly registry.get     vary: 'Accept' } ]
+52 verbose etag https://registry.npmjs.org/loader-utils from cache
+53 verbose addNamed [ 'loader-utils', '0.2.11' ]
+54 verbose addNamed [ '0.2.11', '0.2.11' ]
+55 silly lockFile 12e700f3-loader-utils-0-2-11 loader-utils@0.2.11
+56 verbose lock loader-utils@0.2.11 /Users/conrad/.npm/12e700f3-loader-utils-0-2-11.lock
+57 silly lockFile 12e700f3-loader-utils-0-2-11 loader-utils@0.2.11
+58 silly lockFile 12e700f3-loader-utils-0-2-11 loader-utils@0.2.11
+59 silly lockFile e37962b9-loader-utils-latest loader-utils@latest
+60 silly lockFile e37962b9-loader-utils-latest loader-utils@latest
+61 info already installed loader-utils@0.2.11
+62 http 304 https://registry.npmjs.org/canvas2svg-conradirwin
+63 silly registry.get cb [ 304,
+63 silly registry.get   { date: 'Sun, 06 Sep 2015 07:25:40 GMT',
+63 silly registry.get     via: '1.1 varnish',
+63 silly registry.get     'cache-control': 'max-age=60',
+63 silly registry.get     etag: '"4D4PQ4ZOFBKTQ9KYJT1C7VOHO"',
+63 silly registry.get     age: '0',
+63 silly registry.get     connection: 'keep-alive',
+63 silly registry.get     'x-served-by': 'cache-sjc3121-SJC',
+63 silly registry.get     'x-cache': 'MISS',
+63 silly registry.get     'x-cache-hits': '0',
+63 silly registry.get     'x-timer': 'S1441524340.786695,VS0,VE91',
+63 silly registry.get     vary: 'Accept' } ]
+64 verbose etag https://registry.npmjs.org/canvas2svg-conradirwin from cache
+65 verbose addNamed [ 'canvas2svg-conradirwin', '1.0.14-conrad.4' ]
+66 verbose addNamed [ '1.0.14-conrad.4', '1.0.14-conrad.4' ]
+67 silly lockFile 93fcddba-2svg-conradirwin-1-0-14-conrad-4 canvas2svg-conradirwin@1.0.14-conrad.4
+68 verbose lock canvas2svg-conradirwin@1.0.14-conrad.4 /Users/conrad/.npm/93fcddba-2svg-conradirwin-1-0-14-conrad-4.lock
+69 silly lockFile 93fcddba-2svg-conradirwin-1-0-14-conrad-4 canvas2svg-conradirwin@1.0.14-conrad.4
+70 silly lockFile 93fcddba-2svg-conradirwin-1-0-14-conrad-4 canvas2svg-conradirwin@1.0.14-conrad.4
+71 silly lockFile bebc494c-canvas2svg-conradirwin-latest canvas2svg-conradirwin@latest
+72 silly lockFile bebc494c-canvas2svg-conradirwin-latest canvas2svg-conradirwin@latest
+73 info already installed canvas2svg-conradirwin@1.0.14-conrad.4
+74 silly resolved []
+75 info build /0/js/canvas-animation-loader
+76 verbose linkStuff [ false, false, false, '/0/js' ]
+77 info linkStuff canvas-animation-loader@0.0.2
+78 verbose linkBins canvas-animation-loader@0.0.2
+79 verbose linkMans canvas-animation-loader@0.0.2
+80 verbose rebuildBundles canvas-animation-loader@0.0.2
+81 verbose rebuildBundles [ 'canvas', 'canvas2svg-conradirwin', 'jsdom', 'loader-utils' ]
+82 verbose rebuild bundle /0/js/canvas-animation-loader/node_modules/canvas
+83 info build /0/js/canvas-animation-loader/node_modules/canvas
+84 info preinstall canvas@1.2.8
+85 verbose linkStuff [ false,
+85 verbose linkStuff   false,
+85 verbose linkStuff   false,
+85 verbose linkStuff   '/0/js/canvas-animation-loader/node_modules' ]
+86 info linkStuff canvas@1.2.8
+87 verbose linkBins canvas@1.2.8
+88 verbose linkMans canvas@1.2.8
+89 verbose rebuildBundles canvas@1.2.8
+90 verbose rebuildBundles [ 'nan' ]
+91 info install canvas@1.2.8
+92 verbose unsafe-perm in lifecycle true
+93 info postinstall canvas@1.2.8
+94 info install canvas-animation-loader@0.0.2
+95 info postinstall canvas-animation-loader@0.0.2
+96 info prepublish canvas-animation-loader@0.0.2
+97 error peerinvalid The package canvas does not satisfy its siblings' peerDependencies requirements!
+98 error System Darwin 14.5.0
+99 error command "/Users/conrad/.nvm/v0.10.38/bin/node" "/Users/conrad/.nvm/v0.10.38/bin/npm" "install"
+100 error cwd /0/js/canvas-animation-loader
+101 error node -v v0.10.38
+102 error npm -v 1.4.28
+103 error code EPEERINVALID
+104 verbose exit [ 1, true ]
