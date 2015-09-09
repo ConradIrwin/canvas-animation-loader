@@ -1,6 +1,6 @@
 {
   "name": "canvas-animation-loader",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "webpack loader for canvas animations",
   "main": "index.js",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "jsdom": "^3.0.0",
-    "canvas2svg-conradirwin":"latest",
+    "canvas2svg":"latest",
     "loader-utils":"latest"
   },
   "peerDependencies": {
